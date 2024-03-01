@@ -13,7 +13,7 @@ const kodeMono = localFont({ src: '../../../public/fonts/KodeMono-VariableFont_w
 
 const Capabilities = () => {
   return (
-    <div className='bg-cyan-300 text-white  px-12 py-8 my-24 rounded-[56px] w-9/12'>
+    <div className='bg-cyan-300 text-white  px-12 py-8 my-24 rounded-[56px] w-9/12 h-fit'>
 
       <div className={`${kodeMono.className} text-black font-bold text-3xl mb-8`}>
         Capabilities

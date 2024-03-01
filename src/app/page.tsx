@@ -3,6 +3,7 @@ import Capabilities from "./components/Capabilities";
 import NameHolder from "./components/NameHolder";
 import TopMenu from "./components/TopMenu";
 import localFont from 'next/font/local'
+import Work from "./components/Work";
 
 // If loading a variable font, you don't need to specify the font weight
 const kodeMono = localFont({ src: '../../public/fonts/KodeMono-VariableFont_wght.ttf' })
@@ -15,7 +16,7 @@ export default function Home() {
         <div className="flex flex-col content-end items-end	gap-20">
           <NameHolder />
           <About />
-          <div>rwtergdfgfd</div>
+          <Work />
         </div>
         <Capabilities />
       </div>
